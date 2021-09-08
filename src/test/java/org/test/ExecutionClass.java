@@ -26,7 +26,6 @@ public class ExecutionClass  {
 			Robot r = new Robot();
 			r.keyPress(KeyEvent.VK_ENTER);
 			r.keyRelease(KeyEvent.VK_ENTER);
-			System.out.println("Test3");
 			List<WebElement> mobilename = driver.findElements(By.xpath("//div[contains(@class,'_4rR01T')]"));
 			int count = mobilename.size();
 			System.out.println(count);
